@@ -12,7 +12,7 @@ This project demonstrates how to use **Playwright** to automate and verify basic
 ## 🧪 Technologies Used
 
 - [Playwright](https://playwright.dev/)
-- TypeScript (or JavaScript if preferred)
+- JavaScript (or TypeScript if preferred)
 - Node.js
 
 ## 🚀 How to Run the Tests
@@ -22,7 +22,9 @@ This project demonstrates how to use **Playwright** to automate and verify basic
    npm install
 
 2. Run tests in all supported browsers:
+   ```bash
    npx playwright test
 
 3. open the HTML report after test run:
+   ```bash
    npx playwright show-report
